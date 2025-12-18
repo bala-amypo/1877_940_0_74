@@ -1,4 +1,3 @@
-
 package com.example.demo.entity;
 
 import jakarta.persistence.Entity;
@@ -12,8 +11,6 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id ;
-    @NotBlank(message="Name filed cannot be empty")
-    @
     private String name;
     private String email;
     
@@ -50,3 +47,4 @@ public class Student {
 
 
 }
+
